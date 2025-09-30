@@ -543,7 +543,7 @@ main.video-bg video {
 
     .first-footer>div {
         flex: 1 1 30%;
-        max-width: 30%;
+        max-width: min(30%, 100%);
         padding: 15px;
         word-wrap: break-word;
     }
@@ -592,4 +592,6 @@ main.video-bg video {
         width: 70px;
         height: 70px;
     }
-}
+    
+    
+  }
