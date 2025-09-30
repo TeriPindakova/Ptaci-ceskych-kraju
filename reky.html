@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ptáci českých krajů</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Questrial" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Hammersmith+One" />
+    </head>
+
+    <body class="biotop">
+        <header>
+            <section class="logo-container">
+                <a class="logo" href="index.html">
+                    <img src="images/homelogo.png" alt="logo home">
+                </a>
+                <a class="logo" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fblogo.png" alt="logo facebook">
+                </a>
+                <a class="logo" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/instalogo.png" alt="logo instagram">
+                </a>
+                <a class="logo" href="https://youtu.be/Nmmsl2X_--U?si=bda7ig2Jlhx5xWnt" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="images/YTlogo.png" alt="logo youtube">
+                </a>
+            </section>
+        </header>
+
+
+
+        <main class="reka-bg">
+
+            <div class="content-main biotopy">
+                <h1>PTÁCI ČESKÝCH ŘEK</h1>
+                <!-- malý obrázek -->
+                <img src="images/favicon.ico" alt="Mapa řek v ČR" class="mapa-thumb" onclick="openMap()">
+
+                <!-- velký obrázek -->
+                <div id="modalMapa" class="modal">
+                    <span class="close" onclick="closeMap()">&times;</span>
+                    <img class="modal-content" src="images/river-map.png" alt="Mapa řek v ČR">
+                </div>
+                <hr>
+            </div>
+
+            <section class="ptaci-biotop">
+
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/brehule.jpeg" alt="Břehule říční">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Břehule říční
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Malý pěvec z čeledi vlaštovkovitých, dlouhý asi 12 cm. Má šedohnědé zbarvení svrchu, bílé
+                            břicho a typický hnědý proužek přes prsa.
+                            Ocas je jen mělce vykrojený a ve vzduchu létá obratně a rychle.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Hnízdí především v nížinách do výšky kolem 450 m n. m.
+                            V Česku je zákonem chráněná a vyskytuje se v přibližně 100–150 koloniích s celkovou populací
+                            kolem 15 000–30 000 párů. V posledních desetiletích její početnost klesá.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Přirozeně hnízdí v hlinitopísčitých březích řek a potoků, ale často využívá také pískovny,
+                            hliniště nebo jiné umělé stěny.
+                            Potřebuje strmé břehy s měkkým podkladem, kam si může vyhrabat noru.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se výhradně létajícím hmyzem, jako jsou dvoukřídlí, motýli či vosy, který loví za letu
+                            často nad vodní hladinou nebo nad otevřeným prostorem.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hnízdí v koloniích čítajících desítky až tisíce párů. Každý pár si vyhrabává noru dlouhou až
+                            1 m, do které samice klade 3–5 bílých vajec.
+                            Inkubace trvá asi 13–15 dnů a mláďata opouštějí noru přibližně po 18–19 dnech.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Celosvětově je druh málo dotčený, ale v Česku patří mezi ohrožené. Největší hrozbou je
+                            regulace vodních toků, zpevňování břehů, zánik přirozených hnízdišť, úbytek létajícího hmyzu
+                            a těžba v pískovnách.
+                            Na ochranu druhu vznikají speciální umělé hnízdní stěny.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/konipas-bily.jpg" alt="konipas bílý">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Konipas bílý
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Menší tenký pěvec, dlouhý kolem 16,5–19 cm, váží asi 22 g. Má typický pohyb ocasu – neustále
+                            ho vrtí nahoru a dolů.
+                            Samec v období rozmnožování má výrazné černé a bílé zbarvení, samice a mladí jedinci jsou
+                            tlumenější.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Hnízdí prakticky na celém území České republiky, i v nižších i vyšších polohách. Patří k
+                            běžným druhům.
+                            V rámci Evropy a širšího areálu je považován za málo dotčený druh.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Preferuje otevřenou krajinu – pastviny, pole, louky – často v blízkosti vody, ale i v
+                            městském prostředí.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se převážně hmyzem a dalšími drobnými bezobratlými (dvoukřídlí, larvy, pavouci apod.).
+                            Příležitostně může sníst i semena nebo bobule v zimních obdobích.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hnízdí 2× ročně (vzácně 3×) v období od dubna do července. Samice snáší 4–6 vajec, inkubace
+                            trvá kolem 12–13 dnů.
+                            Mláďata opouštějí hnízdo přibližně po 13 dnech.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Konipas bílý je známý svým hyperaktivním chováním — neustále se pohybuje, vrtí ocasem a
+                            chodí rychlým krokem.
+                            V folklóru se mu přezdívalo „třasořitka“.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/konipas-horsky.jpg" alt="Konipas horský">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Konipas horský
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Menší pěvec s délkou těla 17–20 cm, rozpětím křídel ~25–27 cm. Má nejdelší ocas ze všech
+                            konipasů a velmi krátké nohy.
+                            Samci ve svatebním šatu mají černé hrdlo, šedý vrch těla a žlutavý spodní díl.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Rozšířen široce v Evropě i Asii. V Česku se vyskytuje téměř všude, hlavně u středních a
+                            horních toků řek a potoků.
+                            Populace je stabilní – odhaduje se zde 20-40 tisíc párů.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Hnízdí přímo nad vodními toky, především v horských a středních polohách. Občas sestupuje i
+                            do nížin u čistších toků a přítoků.
+                            Vyhovují mu vodní břehy s kameny, balvany, římsy, skalními výstupky, i mosty a zídky.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Loví hlavně hmyz a jiné drobné bezobratlé, často přímo u vody – chytá dvoukřídlé, vážky,
+                            brouky, larvy, pavouky.
+                            Příležitostně také pulce nebo rybí potěr.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Stavba hnízda v páru monogamně; hnízdo bývá umístěno u vody, ve stěnách, ve škvírách, na
+                            skalních římsách. Snáší 4–6 vajec. Inkubace trvá 11–14 dní.
+                            Mláďata opouštějí hnízdo přibližně po dvou týdnech.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Konipas horský byl v Česku vyhlášen Ptákem roku 2025 jako upozornění na význam přirozených
+                            vodních toků.
+                            I když je považován za druh „málo dotčený“, čelí hrozbám v podobě úprav řek, zastínění břehů
+                            rostlinstvem (např. invazními druhy), znečištění a suchem.
+                        </p>
+                    </div>
+                </article>
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/kormoran.jpg" alt="Kormorán velký">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Kormorán velký
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Velký vodní pták s délkou těla 70–90 cm a rozpětím křídel 120–160 cm. Má černé lesklé peří,
+                            dlouhý zahnutý zobák a oranžovou kůži kolem obličeje.
+                            Často sedává s roztaženými křídly, aby osušil peří.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Vyskytuje se po celé České republice, zejména u větších řek, rybníků a přehrad. Populace je
+                            stabilní, ale v některých oblastech je regulována kvůli rybářským konfliktům.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá řeky, jezera, rybníky a přehrady, často se zdržuje na stromech či skálách poblíž vody.
+                            Hnízdí ve větších koloniích na stromech, skalách nebo ostrovech.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se rybami, které loví potápěním. Dokáže zůstat pod vodou několik desítek sekund při
+                            lovu.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hnízdí v koloniích, staví velká hnízda z větví. Samice klade 3–4 vejce, inkubace trvá
+                            přibližně 28 dní. Mláďata opouštějí hnízdo po 35–45 dnech.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Kormorán je velmi dobrý rybář a jeho kolonie mohou být výrazně hlučné a vizuálně nápadné. V
+                            ČR je chráněn, ale někde podléhá odchytu pro regulaci populace.
+                        </p>
+                    </div>
+                </article>
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/Kvakos.jpg" alt="Kvakoš noční">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Kvakoš noční
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Středně velká volavka s délkou těla 58–65 cm a rozpětím křídel 100–110 cm. Má krátký krk,
+                            silný zobák, černou korunku a hřbet, bílý břicho a žluté nohy.
+                            V noci je aktivní, často tichý.
+                        </p>
+
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Hnízdí v jižní a východní Evropě. V Česku hnízdí vzácně, především v jižních a východních
+                            oblastech.
+                            Patří mezi chráněné druhy.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá vlhké oblasti s hustým porostem, jako jsou rákosové porosty u rybníků, jezer a řek.
+                            Hnízdí v koloniích.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Loví hlavně ryby, obojživelníky, hmyz a drobné savce.
+                            Aktivní je především v noci, kdy loví v mělkých vodách.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Kvakoš noční je známý svou noční aktivitou a tichým způsobem lovu.
+                            Jeho hnízdní kolonie jsou často umístěny v těžko přístupných oblastech, což ztěžuje studium
+                            tohoto druhu.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/lednacek.jpg" alt="Ledňáček říční">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Ledňáček říční
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Malý jasně zbarvený pták, měří asi 16–17 cm. Má modrý hřbet a křídla, oranžový břicho,
+                            prodloužený zobák a krátký ocas.
+                            Je výrazný díky svým kontrastním barvám.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Vyskytuje se na většině území Česka a je trvale přítomen. Přesto je v ČR považován za silně
+                            ohrožený a je přísně chráněn.
+                            Areál druhu zahrnuje i Evropu, Asii a část Afriky.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá břehy čistých, pomalu tekoucích nebo klidných vod – řek, potoků, rybníků a mokřadních
+                            oblastí.
+                            Je citlivý na kvalitu vody, a proto bývá považován za indikátor čistých vod.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Loví menší ryby (většinou do 12 cm) střemhlavým útokem.
+                            Rovněž občas konzumuje vodní hmyz nebo obojživelníky.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hloubí si noru v příkrých březích, obvykle délky kolem půl metru. Hnízdní období trvá od
+                            května do září.
+                            Klade 5–7 vajec, inkubace trvá 19–21 dní. Mláďata opouštějí hnízdo po 23–27 dnech.
+                        </p>
+                        <p>
+                            <span class="label">Zajímavost:</span><br>
+                            Je teritoriální a plachý. V ČR existuje ochranný program (např. „ALCEDO“), který sleduje
+                            populace a podporuje vhodné habitaty.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/pisik.jpg" alt="Pisík obecný">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Pisík obecný
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Malý bahňák dlouhý asi 20–22 cm, s rozpětím křídel kolem 33–40 cm. Horní část těla je
+                            hnědočerná s jemným skvrněním, břicho bílé.
+                            Má výrazný bílý proužek nad okem, dlouhý zašpičatělý zobák a žlutavé nohy.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            V ČR se objevuje nepravidelně – některé lokality jsou hnízdící, jinde ho lze zahlédnout při
+                            tahu.
+                            Patří mezi druhy, které využívají i břehy řek, bahnité pobřeží nádrží a stojatých vod.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá břehy řek, mělké vody, bahnité pobřeží, zejména v blízkosti vody či u toků, ale i
+                            plochy kolem vodních nádrží.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se drobnými bezobratlými – korýši, hmyzem a larvami, které loví pohybem po břehu nebo v
+                            mělké vodě.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Klade 3–4 vejce do dobře skrytého důlku v zemi v květnu až červnu. Inkubace trvá asi 20–22
+                            dní.
+                            Po vylíhnutí mláďata opouštějí hnízdo velmi brzo a létat se naučí přibližně po 3 týdnech.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/skorec.jpeg" alt="Skorec vodní">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Skorec vodní
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Středně velký pěvec (17–20 cm), s tmavým peřím a výraznou bílou náprsenkou propojenou s
+                            rezavohnědým pruhem přes hruď.
+                            Ocas je krátký, nohy silné, létá hbitě a často škubá ocasem.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            V Česku žije celoročně. Hnízdí zde přibližně 1 000 až 2 000 párů, v zimě se populace rozšíří
+                            na 1 800–3 600 jedinců.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Žije při rychle tekoucích, dobře okysličených potocích a řekách – s kamenitým nebo štěrkovým
+                            dnem.
+                            Často hnízdí ve skalních škvírách, za vodními stěnami nebo i na lidských stavbách u břehů.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Loví výhradně z vody – hlavně vodní bezobratlé, jako jsou larvy chrostíků, jepic,
+                            dvoukřídlí, občas i malé rybky, pulce, jikry a další drobné vodní tvory.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Monogamní druh. Hnízdí od března do června.
+                            Staví kupolovitá hnízda s bočním vchodem, často ve stěnách těsně nad vodní hladinou.
+                        </p>
+
+                    </div>
+                </article>
+
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/vodous.jpg" alt="Vodouš bahenní">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Vodouš bahenní
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Středně velký bahňák (22–24 cm), podobný vodouši kropenatému, ale světlejší.
+                            Má výrazně tečkovaný hřbet a křídla, jemně proužkovaný ocas a žlutavě zelené nohy.
+                            V letu je spodní strana křídel světlá.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            V Česku hnízdí vzácně, především na rašeliništích a bažinách v tajze. Patří mezi chráněné
+                            druhy.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá rašeliniště a bažiny v tajze, kde hnízdí na zemi mezi vegetací.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se drobnými bezobratlými, které hledá v mělkých vodách.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hnízdí na zemi, kde klade vejce do hnízda vystlaného vegetací. Mláďata jsou schopná pohybu
+                            krátce po vylíhnutí.
+                        </p>
+
+                    </div>
+                </article>
+
+                <article class="ptaci-biotop-item reky">
+                    <div class="image">
+                        <img src="images/volavka2.jpg" alt="Volavka popelavá">
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Volavka popelavá
+                        </h3>
+                        <p>
+                            <span class="label">Popis:</span><br>
+                            Velký vodní pták dosahující délky 84–102 cm, s rozpětím křídel 155–175 cm a hmotností mezi
+                            1–2 kg. Má dlouhý štíhlý krk a dlouhé končetiny, které jí umožňují pohybovat se i ve větších
+                            hloubkách. Zbarvení je šedé s bílým břichem, růžovožlutým zobákem a tmavým pruhem na krku. V
+                            období rozmnožování bývá zobák a končetiny červenější.
+                            Mladí ptáci jsou tmavší a postrádají bílé zbarvení krku a dlouhá tmavá pera na hlavě.
+                        </p>
+                        <p>
+                            <span class="label">Rozšíření & stav v ČR:</span><br>
+                            Hnízdí v celé Evropě s výjimkou Skandinávie. V Česku je běžně rozšířená a hnízdí na řadě
+                            lokalit.
+                        </p>
+                        <p>
+                            <span class="label">Biotop:</span><br>
+                            Obývá mokřady, rybníky, řeky a pobřežní oblasti s hustým porostem, kde nachází potravu a
+                            vhodné místo pro hnízdění.
+                        </p>
+                        <p>
+                            <span class="label">Potrava:</span><br>
+                            Živí se převážně rybami, ale také obojživelníky, hmyzem a drobnými savci. Loví v mělkých
+                            vodách, kde trpělivě čeká na kořist.
+                        </p>
+                        <p>
+                            <span class="label">Hnízdění:</span><br>
+                            Hnízdí v koloniích na stromech nebo keřích v blízkosti vody. Samice klade 3–5 vajec,
+                            inkubace trvá 25–30 dní.
+                            Mláďata jsou schopná pohybu krátce po vylíhnutí a opouštějí hnízdo po několika týdnech.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <div class="content-main biotopy">
+                <hr>
+                <nav>
+                    <ul>
+                        <li><a href=mokrady.html>mokřady</a></li>
+                        <li><a href=reky.html>řeky</a></li>
+                        <li><a href=rybniky.html>rybníky</a></li>
+                        <li><a href=hory.html>hory</a></li>
+                        <li><a href=lesy.html>lesy</a></li>
+                        <li><a href=louky.html>louky</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+
+            <section class="first-footer">
+                <div class="spoluprace">
+                    <h3>Spolupracujeme s</h3>
+                    <ul>
+                        <li>Křídla naděje</li>
+                        <li>Ptačí útočiště Dubrava</li>
+                        <li>Stanice volného letu</li>
+                        <hr>
+                        <li>Letci z hor</li>
+                        <li>Ptačí zahrada Javorisa</li>
+                        <li>Záchranná stanice Březlov</li>
+                    </ul>
+                </div>
+                <div class="sponzori">
+                    <h3>Naši sponzoři</h3>
+                    <img src="images/ChatGPT-Image.png" alt="loga fiktivních sponzorů">
+                </div>
+
+                <div class="kontakt">
+                    <h3>Kontakt</h3>
+                    <p>
+                        <a class="email-link" href="mailto:ptaciceskychkraju@email.cz">ptaciceskychkraju@email.cz</a>
+                    </p>
+                    <p>
+                        +420788564123
+                    </p>
+
+                    <a class="logo-footer" href="https://www.facebook.com/">
+                        <img src="images/fblogo.png" alt="logo facebook"></a>
+
+                    <a class="logo-footer" href="https://www.instagram.com/">
+                        <img src="images/instalogo.png" alt="logo instagram"></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>
+                Texty na této stránce vycházejí z článků <a href="https://cs.wikipedia.org/"
+                    target="_blank">Wikipedie</a>
+                a jsou dostupné pod licencí
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+            </p>
+            <hr>
+            &copy;2025 teri_pindakova_design
+        </footer>
+        <script src="JS/main.js"></script>
+    </body>
+
+</html>

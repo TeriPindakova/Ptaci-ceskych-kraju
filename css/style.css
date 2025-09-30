@@ -1,0 +1,595 @@
+* {
+    /*border: solid rgb(226, 44, 211) 2px;*/
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* LOGA */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+}
+
+.logo-container img {
+    width: 5rem;
+    height: auto;
+}
+
+
+
+/* OBSAH STRÁNKY */
+.content-main {
+    position: relative;
+    z-index: 1;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 0;
+    font-size: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+    font-family: Hammersmith One, AQuestrial, sans-serif;
+    padding-bottom: 200px;
+    padding-top: 50px;
+
+
+}
+
+.ptaci-main {
+    position: left;
+    z-index: 1;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 2.5rem;
+    font-family: Hammersmith One, AQuestrial, sans-serif;
+    font-size: 25px;
+    padding-bottom: 150px;
+
+}
+
+/* NAVIGACE */
+nav {
+    width: 100%;
+    background: linear-gradient(to bottom, #272727 0%, #1f1f1f 50%, #1c1d1d 100%);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #272727 0%, #1f1f1f 50%, #1c1d1d 100%);
+    letter-spacing: 3px;
+    font-family: Hammersmith One, AQuestrial, sans-serif;
+    color: rgb(235, 235, 235);
+
+}
+
+nav li {
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-variant: small-caps;
+    background: linear-gradient(to bottom, #272727 0%, #1f1f1f 50%, #1c1d1d 100%);
+
+}
+
+nav li:hover {
+    color: #2b6d6a;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+main.video-bg {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background: url("images/fallback.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+main.video-bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+    /*opacity: 0.8;*/
+}
+
+
+.first-footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px;
+    font-family: AQuestrial, sans-serif;
+    font-size: 1rem;
+    color: #ebebeb;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+
+}
+
+
+.first-footer>div {
+    background: rgba(255, 255, 255, 0.274);
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.sponzori img {
+    width: 500px;
+    padding: 0;
+}
+
+.logo-footer img {
+    width: 50px;
+}
+
+.email-link {
+    color: #6bd6d1;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #30a5a1;
+    text-decoration: underline;
+}
+
+.spoluprace ul {
+    list-style: none;
+    padding: 0;
+}
+
+.spoluprace li {
+    margin-bottom: 6px;
+    color: #6bd6d1;
+    font-weight: bold;
+
+}
+
+.footer {
+
+    display: block;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: rgb(56, 155, 168);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    font-family: AQuestrial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.footer a {
+    color: rgb(54, 194, 212);
+    text-decoration: none;
+}
+
+/*----BIOTOPY-----*/
+
+.ptaci-biotop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+}
+
+
+.content-main.biotopy {
+    padding-bottom: 30px;
+
+}
+
+.ptaci-biotop-item {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 70px;
+    
+    border-bottom: 3px solid rgb(177, 169, 101);
+    overflow: hidden;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.ptaci-biotop-item:hover {
+
+    box-shadow: 0 8px 20px rgb(218, 209, 131);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover .text p {
+    color: rgb(54, 38, 21);
+}
+
+.ptaci-biotop-item .image {
+    flex: 1;
+    min-width: 40%;
+}
+
+.ptaci-biotop-item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.ptaci-biotop-item .text {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ptaci-biotop-item:hover .text p {
+    color: rgb(54, 38, 21);
+}
+
+.ptaci-biotop-item h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #081013;
+    font-family: Hammersmith One, AQuestrial, sans-serif;
+    text-transform: uppercase;
+}
+
+.ptaci-biotop-item p {
+    margin: 8px 0;
+    line-height: 1.6;
+    color: rgb(31, 31, 31);
+    font-size: 0.85rem;
+    font-weight: 500;
+    font-family: Hammersmith One, AQuestrial, sans-serif;
+}
+
+.ptaci-biotop-item .text .label {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 5px;
+    font-size: 1.0rem;
+    letter-spacing: 2px;
+}
+
+
+/* 🔁 Přepínání pořadí každého druhého boxu */
+.ptaci-biotop-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+/*---ŘEKY---*/
+.ptaci-biotop-item.reky {
+    border-bottom: 3px solid rgb(36, 37, 59);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    background: rgba(134, 134, 134, 0.55);
+}
+
+.ptaci-biotop-item:hover.reky {
+
+    box-shadow: 0 8px 20px rgb(52, 152, 170);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover.reky .text p {
+    color: rgb(0, 0, 0);
+}
+
+/*---LOUKY---*/
+.ptaci-biotop-item.louky {
+    border-bottom: 3px solid rgb(43, 78, 3);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    background: rgba(134, 134, 134, 0.55);
+}
+
+.ptaci-biotop-item:hover.louky {
+
+    box-shadow: 0 8px 20px rgb(130, 179, 17);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover.louky .text p {
+    color: rgb(0, 0, 0);
+}
+
+/*---LESY---*/
+.ptaci-biotop-item.lesy {
+    border-bottom: 3px solid rgb(17, 29, 5);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    background: rgba(134, 134, 134, 0.55);
+}
+
+.ptaci-biotop-item:hover.lesy {
+
+    box-shadow: 0 8px 20px rgb(2, 43, 6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover.lesy .text p {
+    color: rgb(0, 0, 0);
+}
+
+
+/*---HORY---*/
+.ptaci-biotop-item.hory {
+    border-bottom: 3px solid rgba(223, 223, 223, 0.658);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    background: rgba(134, 134, 134, 0.55);
+}
+
+.ptaci-biotop-item:hover.hory {
+
+    box-shadow: 0 8px 20px rgb(255, 255, 255);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover.hory .text p {
+    color: rgb(0, 0, 0);
+}
+
+/*---RYBNIKY---*/
+.ptaci-biotop-item.rybniky {
+    border-bottom: 3px solid rgba(8, 78, 90, 0.658);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(46, 107, 126, 0.35);
+    background: rgba(134, 134, 134, 0.55);
+}
+
+.ptaci-biotop-item:hover.rybniky {
+
+    box-shadow: 0 8px 20px rgb(16, 247, 255);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.ptaci-biotop-item:hover.rybniky .text p {
+    color: rgb(0, 0, 0);
+}
+/*------biotopy-KLIKACI OBRAZEK------*/
+/* Malý klikací obrázek */
+.mapa-thumb {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: cover;
+    /* zachová proporce */
+    border: 2px solid #333;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+/* Modální okno */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Velký obrázek v modálním okně */
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 3px;
+    box-shadow: 0 0 15px #000;
+}
+
+/* Zavírací tlačítko */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #bbb;
+}
+
+.first-footer.louky {
+    background: rgb(75, 75, 75,0.5);
+}
+
+/*--BACKGROUNDY--*/
+.reka-bg {
+    background-image: url("../images/reka4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mokrady-bg {
+    background-image: url("../images/rakos3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.louky-bg {
+    background-image: url("../images/louka2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.lesy-bg {
+    background-image: url("../images/les1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.hory-bg {
+    background-image: url("../images/hory.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.rybniky-bg {
+    background-image: url("../images/rybnik.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .logo-container img {
+        width: 3rem;
+        /* menší ikony pro mobil */
+    }
+
+    .content-main {
+        font-size: 1rem;
+        padding-bottom: 200px;
+        padding-top: 50px;
+    }
+
+    .ptaci-main {
+        font-size: 0.8rem;
+        padding-bottom: 250px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+
+        margin: 0;
+    }
+
+    main.video-bg {
+        flex: 1;
+
+    }
+
+    main.video-bg {
+        position: relative;
+        overflow: hidden;
+        height: auto;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        flex: 1 1 50%;
+        padding: 5px 0;
+    }
+
+
+    .first-footer {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+        font-size: clamp(0.8rem, 1.5vw, 1rem);
+    }
+
+    .first-footer>div {
+        flex: 1 1 30%;
+        max-width: 30%;
+        padding: 15px;
+        word-wrap: break-word;
+    }
+
+    .sponzori img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+      .ptaci-biotop-item {
+        flex-direction: column !important;
+        margin-bottom: 40px;
+        border-bottom-width: 2px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .ptaci-biotop-item .image,
+    .ptaci-biotop-item .text {
+        flex: none;
+        width: 100%;
+    }
+
+    .ptaci-biotop-item .image img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .ptaci-biotop-item .text {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .ptaci-biotop-item h3 {
+        font-size: 1.5rem;
+        word-wrap: break-word;
+    }
+
+    .ptaci-biotop-item p {
+        font-size: 0.75rem;
+        word-wrap: break-word;
+    }
+
+    .mapa-thumb {
+        width: 70px;
+        height: 70px;
+    }
+}
