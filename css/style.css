@@ -539,6 +539,10 @@ main.video-bg video {
         gap: 7px;
         padding: 5px;
         font-size: clamp(0.8rem, 1.5vw, 1rem);
+        font-size: 0.5rem;
+    }
+    .email-link {
+        font-size: 0.4rem;
     }
 
     .first-footer>div {
@@ -551,6 +555,7 @@ main.video-bg video {
     .sponzori img {
         width: 100%;
         height: auto;
+        
     }
 
     
